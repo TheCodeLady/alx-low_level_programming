@@ -1,9 +1,7 @@
-#include <stdio.h>
-
 /**
- * This function main will print out a string 
+ * This function prints out a string using the puts function
  */
-
+#include <stdio.h>
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
