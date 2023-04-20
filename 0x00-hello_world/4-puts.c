@@ -1,7 +1,7 @@
 /**
  * main - Prints a string
  *
- * Return - returns 0
+ * Return - 0 as parameter is void
  */
 #include <stdio.h>
 int main(void)
