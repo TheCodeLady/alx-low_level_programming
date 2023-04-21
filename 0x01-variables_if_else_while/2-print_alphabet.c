@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - point of emtry into program 
+ * main - point of entry into program
  *
  * Return: 0 as parameter is void
  */
@@ -10,7 +10,7 @@ int main(void)
 
 	while (alpha <= 'z')
 	{
-		putchar(alpha);
+		putchar("%c \n", alpha);
 		alpha++;
 	}
 
