@@ -13,9 +13,10 @@ int main(void)
 		putchar(comb + '0');
 		if (comb < 9)
 		{
-			putchar(', ');
-			comb++;
+			putchar(',');
+			putchar(' ');
 		}
+		comb++;
 	}
 
 	return (0);
