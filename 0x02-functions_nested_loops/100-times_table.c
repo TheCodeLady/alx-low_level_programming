@@ -22,9 +22,9 @@ void print_times_table(int n)
 			for (j = 0; j < n; j++)
 			{
 				k = i * j;
-				if (k < 10);
+				if (k < 10)
 				{
-					if (j == 0);
+					if (j == 0)
 					{
 						_putchar('0');
 					}
