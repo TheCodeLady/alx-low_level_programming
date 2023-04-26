@@ -10,7 +10,7 @@ int _abs(int n)
 {
 	if (n == +n || n == -n || n)
 	{
-		_putchar(n + '0');
+		_putchar(n);
 	}
 
 	return (0);
