@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * main - point of entry
+ * print_alphabet - point of entry
  *
  * Return: 0
  *
  */
-int main(void)
+void print_alphabet(void)
 {
 	char alpha = 'a';
 	while (alpha <= 'z')
@@ -16,5 +16,5 @@ int main(void)
 	}
 	_putchar('\n');
 
-	return (0);
+	return;
 }
