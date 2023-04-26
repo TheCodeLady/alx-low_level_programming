@@ -5,7 +5,9 @@
  *
  * Return: 0
  */
-int _putchar()
+int _putchar();
+
+void printpc()
 {
 	char str[] = "_putchar\n";
 	int i;
