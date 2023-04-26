@@ -8,10 +8,11 @@
  */
 int _abs(int n)
 {
-	if (n == +n || n == -n || n)
+	if (n < 0)
 	{
-		_putchar(n);
+		n = -n
 	}
+	_putchar(n);
 
 	return (0);
 }
