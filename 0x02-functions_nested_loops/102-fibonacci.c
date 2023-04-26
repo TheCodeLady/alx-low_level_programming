@@ -10,7 +10,7 @@ int main(void)
 	long x = 1, y = 2, z;
 
 	printf("%ld, %ld, ", x, y);
-	for (i = 2; i < n; i++)
+	for (i = 2; i < fib; i++)
 	{
 		z = x + y;
 		printf("%ld, ", z);
