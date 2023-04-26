@@ -18,31 +18,28 @@ void times_table(void)
 			if (k > 9)
 			{
 				_putchar(k / 10);
-				_putchar(k % 10);	
+				_putchar(k % 10);
 				if (j != 9)
 				{
-					_putchar(k + '0');
 					_putchar(',');
 					_putchar(' ');
 				}
 				else
 				{
-					_putchar(k + '0');
 					_putchar('\n');
 				}
 			}
 			else
 			{
+				_putchar(k + '0');
 				if (j != 9)
 				{
-					_putchar(k + '0');
 					_putchar(',');
 					_putchar(' ');
 				}
 				else
 				{
-				       	_putchar(k + '0');
-				       	_putchar('\n');
+					_putchar('\n');
 				}
 			}
 
