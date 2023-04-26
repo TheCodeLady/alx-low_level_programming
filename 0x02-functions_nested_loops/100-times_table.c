@@ -18,26 +18,22 @@ void print_times_table(int n)
 			for (j = 0; j <= n; j++)
 			{
 				k = i * j;
-				if (k < 10)
+				if (j == 0 && k < 10)
 				{
-					if (j == 0)
-					{
-						_putchar('0');
-					}
-					if (j != 0)
-					{
-						_putchar(' ');
-						_putchar(' ');
-						_putchar(k + '0');
-					}
-					if (j != n)
-					{
-						_putchar(',');
-						_putchar(' ');
-					}
+					_putchar(k + '0');
+				}
+				if (j != 0 && k < 10)
+				{
+					_putchar(' ');
+					_putchar(' ');
+					_putchar(k + '0');
+				}
+				if (j != n)
+				{
+					_putchar(',');
+					_putchar(' ');
 				}
 				else
-				{
 					if (j != n)
 					{
 						_putchar(' ');
