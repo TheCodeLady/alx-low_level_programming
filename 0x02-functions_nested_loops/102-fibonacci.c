@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int a, fib = 50;
+	int i, fib = 50;
 	long x = 1, y = 2, z;
 
 	printf("%ld, %ld, ", x, y);
