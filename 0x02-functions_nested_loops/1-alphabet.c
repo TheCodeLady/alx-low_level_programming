@@ -9,9 +9,10 @@
 int main(void)
 {
 	char aplha = 'a';
-	for (i = alpha; i <= 'z'; i++)
+	while (alpha <= 'z')
 	{
 		_putchar(aplha);
+		alpha++;
 	}
 	_putchar('\n');
 
