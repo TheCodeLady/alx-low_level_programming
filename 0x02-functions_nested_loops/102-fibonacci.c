@@ -13,7 +13,14 @@ int main(void)
 	for (i = 2; i < fib; i++)
 	{
 		z = x + y;
-		printf("%ld, ", z);
+		if (z != 20365011074)
+		{
+			printf("%ld, ", z);
+		}
+		else
+		{
+			printf("%ld", z);
+		}
 		x = y;
 		y = z;
 	}
