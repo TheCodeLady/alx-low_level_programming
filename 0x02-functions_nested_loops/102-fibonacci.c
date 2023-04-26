@@ -7,13 +7,13 @@
 int main(void)
 {
 	int a, fib = 50;
-	long long x = 1, y = 2, z;
+	long x = 1, y = 2, z;
 
-	printf("%lld, %lld, ", x, y);
+	printf("%ld, %ld, ", x, y);
 	for (i = 2; i < n; i++)
 	{
 		z = x + y;
-		printf("%lld, ", z);
+		printf("%ld, ", z);
 		x = y;
 		y = z;
 	}
