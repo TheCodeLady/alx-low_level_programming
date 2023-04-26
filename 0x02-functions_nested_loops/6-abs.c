@@ -2,17 +2,23 @@
 
 /**
  * _abs - to get the abs of any input
- * @int - value type of parameter
+ * @n: value type of parameter
  *
  * Return: 0 as success
  */
 int _abs(int n)
 {
-	if (n < 0)
+	if (n == 0)
 	{
-		n = -n;
+		return (0);
 	}
-	_putchar(n);
+	else if (n < 0)
+	{
+		return (n * -1);
+	}
+	else
+	{
+		return (n)
 
 	return (0);
 }
