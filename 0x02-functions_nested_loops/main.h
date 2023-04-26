@@ -3,7 +3,6 @@
 
 #include <stdio.h>
 
-int _putchar();
-int printpc();
+int _putchar(char c);
 
 #endif /* MAIN_H */
