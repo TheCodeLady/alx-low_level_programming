@@ -6,9 +6,8 @@
  *
  * Return: 0 as success
  */
-int _abs(int)
+int _abs(int n)
 {
-	int n;
 	if (n == +n || n == -n || n)
 	{
 		_putchar(n + '0');
