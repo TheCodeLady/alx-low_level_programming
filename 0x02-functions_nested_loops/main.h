@@ -4,6 +4,6 @@
 #include <stdio.h>
 
 int _putchar();
-void printpc();
+int printpc();
 
 #endif /* MAIN_H */

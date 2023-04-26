@@ -7,7 +7,7 @@
  */
 int _putchar();
 
-void printpc()
+int printpc()
 {
 	char str[] = "_putchar\n";
 	int i;
