@@ -2,8 +2,9 @@
 
 /**
  * _islower - point of entry
+ * @c: the character to be checked
  *
- * Return: 0 on success
+ * Return: 1 if lower or 0 otherwise
  */
 int _islower(int c)
 {
