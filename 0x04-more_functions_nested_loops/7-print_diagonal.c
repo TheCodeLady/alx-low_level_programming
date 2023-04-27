@@ -1,21 +1,21 @@
 #include "main.h"
 /**
- * print_line - point of entry
+ * print_diagonal - point of entry
  * @n: integer variable
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
-	int i;
+	int i; 
 
 	if (n <= 0)
 	{
-		_putchar('\n');
+		_putchar('\n')
 	}
 	else
 	{
 		for (i = 0; i < n; i++)
 		{
-			_putchar('_');
+			_putchar('\\');
 		}
 		_putchar('\n');
 	}
