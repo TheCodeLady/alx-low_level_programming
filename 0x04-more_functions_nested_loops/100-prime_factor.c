@@ -36,8 +36,8 @@ void prime_factors(long n)
 int main(void)
 {
 	long n = 612852475143;
-
-	printf("The prime factors of %ld are: ", n);
+	
+	printf("The prime factors of %d are: \n", n);
 	prime_factors(n);
 
 	return (0);
