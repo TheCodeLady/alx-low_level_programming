@@ -12,7 +12,7 @@ int main(void)
 	printf("%ld, %ld, ", x, y);
 	for (i = 2; i < fib; i++)
 	{
-		z = x + y;
+		z = x y;
 		if (z != 20365011074)
 		{
 			printf("%ld, ", z);
