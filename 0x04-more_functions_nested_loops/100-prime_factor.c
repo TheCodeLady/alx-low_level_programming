@@ -1,44 +1,38 @@
-#include "main.h"
+#include <main.h>
+#include <math.h>
 /**
- * prime_factors - function to get prime factors
  * main - point of entry
- * @n: long number
  *
- * Return: 0 on success
+ * Return: Always 0 (Success)
  */
-void prime_factors(long n)
-{
-	int a, b, is_prime;
-
-	for (a = 2; a <= n; a++)
-	{
-		if (n % a == 0)
-		{
-			is_prime = 1;
-			for (b = 2; b <= a / 2; b++)
-			{
-				if (a % b == 0)
-				{
-					is_prime = 0;
-					break;
-				}
-			}
-			if (is_prime)
-			{
-				printf("%d ", a);
-				n /= a;
-				a--;
-			}
-		}
-	}
-}
-
 int main(void)
 {
-	long n = 612852475143;
+	long int n;
+	long int max;
+	long int i;
 
-	printf("The prime factors of %ld are: \n", n);
-	prime_factors(n);
+	n = 612852475143;
+	max = -1;
+
+	while (n % 2 == 0)
+	{
+		max = 2;
+		n /= 2;
+	}
+
+	for (i = 3; i <= sqrt(n); i = i + 2)
+	{
+		while (n % i == 0)
+		{
+			max = i;
+			n = n / i;
+		}
+	}
+
+	if (n > 2)
+		max = n;
+
+	printf("%ld\n", max);
 
 	return (0);
 }
