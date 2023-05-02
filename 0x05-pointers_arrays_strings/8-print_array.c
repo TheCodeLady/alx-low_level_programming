@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _print_array - point of entry
+ * print_array - point of entry
  * @a: int pointer
  * @n: int variable
  *
