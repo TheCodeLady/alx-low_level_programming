@@ -16,11 +16,7 @@ char *leet(char *str)
 	{
 		for (j = 0; j < 5; j++)
 		{
-			if (str[i] == cap_letters[j])
-			{
-				str[i] = nums[j];
-			}
-			if (str[i] == small_letters[j])
+			if (str[i] == cap_letters[j] || str[i] == small_letters[j])
 			{
 				str[i] = nums[j];
 			}
