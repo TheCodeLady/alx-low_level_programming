@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * *string_toupper - point of entry
- * @*: pointer variable
+ * @str: pointer variable
  *
  * Return: char
  */
