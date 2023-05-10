@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * is_prime_number - point of entry
- * @n: integer variable
+ * wildcmp - point of entry
+ * @s1: pointer variable
+ * @s2: pointer variable
  *
  * Return: int
  */

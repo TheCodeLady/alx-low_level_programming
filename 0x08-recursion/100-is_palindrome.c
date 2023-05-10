@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * is_prime_number - point of entry
- * @n: integer variable
+ * is_palindrome - point of entry
+ * @s: integer variable
  *
  * Return: int
  */
