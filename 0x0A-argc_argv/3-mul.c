@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * main - point of entry
  * @argc: argument 1 to main
@@ -8,22 +9,12 @@
  */
 int main(int argc, char *argv[])
 {
-	int i = 0, r = 1;
-	if(argc == 3)
+	if (argc == 3)
 	{
-		while(i < 3)
-		{
-			r = r * argv[i];
-			i++;
-		}
-		printf("%d\n", r);
-	}
-	else
-	{
-		printf("Error\n");
-		return (1);
-	}
-
+	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 	return (0);
+	}
+	printf("Error\n");
+	return (1);
 }
 
