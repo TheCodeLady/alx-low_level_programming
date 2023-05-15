@@ -1,0 +1,22 @@
+#include "main.h"
+#include <stdlib.h>
+/**
+ * *free_grid - point of entry
+ * @grid: pointer variable
+ * @height: int variable
+ * Return: 0
+ */
+void free_grid(int **grid, int height)
+{
+	int a;
+
+	if (grid == NULL || height == 0)
+	{
+		return;
+	}
+	for (a = 0; a < height; a++)
+	{
+		free(grid[a]);
+	}
+	free(grid);
+}
