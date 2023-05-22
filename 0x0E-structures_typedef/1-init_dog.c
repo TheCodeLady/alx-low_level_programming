@@ -2,7 +2,7 @@
 #include <stddef.h>
 #include <stdlib.h>
 /**
- * struct dog - object named dog
+ * init_dog - object named dog
  * @name: First member
  * @age: Second member
  * @owner: Third member
