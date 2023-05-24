@@ -3,7 +3,7 @@
 /**
  * print_name - point of entry
  * @name: pointer variable
- * *f - function variable
+ * f - function variable
  * @char *: parameter
  */
 void print_name(char *name, void (*f)(char *))
