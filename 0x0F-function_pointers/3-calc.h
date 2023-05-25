@@ -6,7 +6,7 @@
 /**
  * struct op - typedef
  * @op: the new struct
- * @f the function pointer variable
+ * @f: the function pointer variable
  */
 typedef struct op
 {
